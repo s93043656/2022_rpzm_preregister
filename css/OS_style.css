@@ -1,0 +1,198 @@
+/* -----------------------menu----------------------- */
+.menu-l,.menu-0{
+    cursor: pointer;
+    width: 40px;
+    height: 85px;
+    text-align: center;
+    padding: 7px;
+    background:linear-gradient(#d98c47,#e1a65c);
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+}
+.menubox{
+    height: 200px;
+}
+/* .menubtn02{
+    margin-top: 18px;
+}
+.menubtn06{
+    margin-top: 12px;
+} */
+.menubox li{
+    margin-top: 5px;
+}
+.menubox li:nth-child(5){
+    width: auto;
+}
+.menubox{
+    margin-top: 5px;
+    height: auto;
+}
+/* -----------------------menu----------------------- */
+.icon-scroll{
+    margin-left: -16px;
+}
+.OS_bookbox{
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+}
+.OS_bookbox>a{
+    margin: 0 5px;
+}
+.OS_bookbox>a:hover{
+    transition: .3s linear;
+    transform: scale(105%);
+}
+.page02{
+    height: 546px;
+}
+.webp  .page02{background-image: url('../imgp/OS/OS_page02bg.webp');}
+.no-webp  .page02{background-image: url('../img/OS/OS_page02bg.png');}
+.OS_page02act{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.OS_swiperbox{
+    width: 530px;
+    height: 350px;
+}
+.OS_swiperimg img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.OS_tabbox{
+    width: 550px;
+    height: 350px;
+}
+.OS_tabbox .morebox{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    color: #9d4b0e;
+    font-weight: 500;
+}
+.morebox:hover{
+    color: #dd9951;
+    transition: .3s linear;
+}
+.OS_tabbox .tab-title{
+    display: flex;
+    border-bottom: 1px solid #9d4b0e;
+}
+.ostibox{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+.OS_tabbox li.active a{
+    text-align: center;
+    border-top: 1px solid #9d4b0e;
+    border-right: 1px solid #9d4b0e;
+    border-left: 1px solid #9d4b0e;
+    background-color: #dd9951;
+}
+.OS_tabbox li.active a:hover{
+    border-top: 1px solid #9d4b0e;
+    border-right: 1px solid #9d4b0e;
+    border-left: 1px solid #9d4b0e;
+    background-color: #dd9951;
+}
+.OS_tabbox .innerinfo02{
+    width: 100%;
+}
+.OS_tabbox .innerinfo02 li a{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    border-bottom: 1px solid #a3a2a2;
+}
+.OS_tabbox .innerinfo02 li a img,.main .infobox img{
+    height: 15px;
+}
+.OS_tabbox .innerinfo02 li a:hover .infobox{
+    color: #dd9951;
+}
+.OS_tabbox .innerinfo02 .infobox{
+    max-width: 330px;
+    border: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+}
+.OS_tabbox .timebox{
+    color: #8f8f8f;
+}
+.OS_swiper-pagination span.swiper-pagination-bullet-active{
+    border-radius: 0 !important;
+    transform:rotate(45deg);
+    background:#dd9951;
+    border: 1px solid #dd9951;
+}
+.OS_swiper-pagination span{
+    border-radius: 0 !important;
+    transform:rotate(45deg);
+    margin: 0 2% !important;
+    border: 1px solid #dd9951;
+    opacity: 1;
+    cursor: pointer;
+}
+.webp  .page05{background-image: url('../imgp/OS/OS_page05bg.webp');}
+.no-webp  .page05{background-image: url('../img/OS/OS_page05bg.png');}
+
+.swiper-pagination1{
+    bottom: 16% !important;
+}
+.swiper-pagination1 span{
+    margin: 0 2% !important;
+}
+.page06bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.page07ti{
+    width: 233px;
+    height: 90px;
+}
+.webp  .page07ti{background-image: url('../imgp/OS/OS_page07ti.webp');}
+.no-webp  .page07ti{background-image: url('../img/OS/OS_page07ti.png');}
+/*-------------------------------footer02-----------------------------------*/
+.footer02{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+}
+.footer02box{
+    margin: 49px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer02box>img{
+    margin: 0 15px;
+}
+.footer02box .fontbox{
+    width: 420px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.OS_downloadbox{
+    flex-direction: column;
+}
+/*-------------------------------footer-----------------------------------*/
+@media screen and (max-width:767px){
+    .footer .footerwrap{
+        height: 470px;
+    }
+}
+

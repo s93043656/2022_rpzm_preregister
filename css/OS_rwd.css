@@ -1,0 +1,249 @@
+@media screen and (min-width: 1441px){
+
+}
+@media (max-width: 1600px){
+
+}
+@media (max-width: 1536px){
+    
+}
+@media (max-width: 1440px){
+
+}
+@media (max-width: 1366px){
+
+
+}
+@media (max-width: 1280px){
+
+}
+@media (max-width: 1024px){
+    .rwdmenubox{
+        height: 40%;
+    }
+    .rwdmenubox li:nth-child(5)>div>.notoif-20{
+        width: auto;
+    }
+    .page01{
+        height: 1440px;
+    }
+    .page02{
+        top:12%;
+    }
+    .OS_page02act{
+        height: auto;
+        flex-direction: column;
+    }
+    .OS_swiperbox,.page02 .OS_tabbox{
+        margin: 30px 0;
+    }
+    .OS_swiperbox{
+        height: auto;
+    }
+    .OS_tabbox{
+        width: 90%;
+    }
+    .OS_tabbox #tab-box{
+        width: 100%;
+    }
+    .OS_tabbox #tab-box ul{
+        justify-content: flex-start;
+    }
+    .OS_tabbox .innerinfo02 .infobox{
+        max-width: 80%;
+    }
+    .page06{
+        height: 700px;
+    }
+    
+        /* -------NEWS----- */
+        .topimg{
+            height: 255px;
+            padding-top: 15%;
+        }
+        .newsLOGO{
+            margin: 0 auto;
+        }
+        .main td{
+            padding: 3% 0;
+        }
+        .pager{
+            width: 120%;
+            bottom: -10%;
+        }
+
+}
+
+@media (max-width: 767px){
+    .swiper-pagination1{
+        width: 100%;
+        bottom: 10% !important;
+    }
+    /* .swiper-pagination1 span{
+        margin: 0 3px 0 2px !important;
+    } */
+    .footer02box .fontbox{
+        width: 90%;
+    }
+    /* -------NEWS----- */
+    .main .infobox{
+        max-width: 400px;
+    }
+    .main td{
+        padding: 4% 0;
+    }
+
+    /* NEWINNER */
+    .main00-content .maininnerbox{
+        margin-bottom: 45%;
+    }
+
+}
+@media (max-width: 514px){
+    .footer .footerwrap{
+        height: 420px;
+    }
+    .page01{
+        height: 1420px;
+    }
+    .OS_swiperbox{
+        width: 90%;
+    }
+    .ostibox{
+        width: 70px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .page01 .OS_bookbox{
+        margin-top: 10%;
+    }
+    .page02{
+        top:13%;
+    }
+    /* -------NEWS----- */
+    .topimg{
+        padding-top: 20%;
+        height: 215px;
+    }
+    .main{
+        min-height: 2000px;
+    }
+    .main .infobox{
+        max-width: 240px;
+    }
+    .main td{
+        padding: 6% 0;
+    }
+
+    /* NEWINNER */
+    .main00-content .maininnerbox{
+        padding: 1%;
+        margin-bottom: 125%;
+    }
+        /*----------- 特色換背景------------ */
+        .page07{
+            height: 1200px;
+        }
+        .webp  .page07{background-image: url('../imgp/OS/rwdpage07bg.webp');background-position: -510px;}
+        .no-webp  .page07{background-image: url('../img/OS/rwdpage07bg.png');background-position: -510px;}
+        .footer02{
+            height: auto;
+        }
+        .footer02box{
+            flex-direction: column;
+        }
+        .footer02box .fontbox{
+            text-align: center;
+        }
+        .footer02box .fontbox>div{
+            margin: 0 auto;
+        }
+    .page02img04{
+        height: 139px;
+    }
+}
+@media (max-width: 415px){
+    .page01{
+        height: 1360px;
+    }
+    .page01 .OS_bookbox{
+        margin-top: 25%;
+    }
+    /* --------------NEWS----------- */
+    .swiper-button-next,.swiper-button-prev{
+        width: 8%;
+        height: 38px;
+        right: -5%;
+    }
+    .swiper-button-prev{
+        left: -5%;
+    }
+    .rwdtitlebox{
+        width: 60%;
+    }
+    .main td{
+        padding: 8% 0;
+    }
+    .rwdtitlebox.page07ti{
+        width: 60%;
+    }
+    /* NEWINNER */
+    .main00-content .maininnerbox{
+        margin-bottom: 155%;
+    }
+}
+@media (max-width: 375px){
+    .noto-18{
+        font-size: 16px;
+    }
+    .page01{
+        height: 1450px;
+    }
+    .page02{
+        top: 14%;
+    }
+    .page01 .OS_bookbox{
+        margin-top:90px;
+        flex-direction: column;
+    }
+    .ostibox{
+        width: 60px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .OS_tabbox .innerinfo02 .infobox{
+        width: 70%;
+    }
+    /* --------------NEWS----------- */
+    .topimg{
+        height: 155px;
+        padding-top: 17%;
+    }
+    .main .infobox{
+        max-width: 200px;
+    }
+    .pg-normal,.pg-selected,.pg-goto{
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        line-height: 15px;
+        padding: 0 5px;
+    }
+    .pg-goto{
+        width: auto;
+    }
+    .main td{
+        padding: 9% 0;
+    }
+    /* NEWINNER */
+    .main00-content .maininnerbox{
+        margin-bottom: 175%;
+    }
+    .contentidown>div{
+        font-size: 17px;
+    }
+
+}
+@media (max-width: 320px){
+
+}
